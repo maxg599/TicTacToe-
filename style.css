@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    border: solid black 3px;
+}
+
+body{
+    border: solid red;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.board{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 60%;
+    color: white;
+    gap: 6px;
+    font-size: 2.5rem;
+}
+.board div:hover{
+    opacity: 50%;
+    background-color:white;
+    color: black;
+}
